@@ -1,0 +1,35 @@
+.widget-tags{
+    margin-top: 40px;
+    box-shadow: 3px 3px 10px rgb(0 0 0 / 5%),
+    -3px -3px 10px rgb(0 0 0 / 5%);
+}
+
+.widget-tags h3{
+    align-items: flex-start;
+    margin: 0%;
+    padding: 15px;
+    background-color: #f8f9f9;
+    border: solid 1px #e3e6e8;
+    font-size: 13px;
+}
+.widget-tags-div{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 1px #e3e6e8;
+    padding: 10px;
+}
+
+.widget-tags-div p{
+    padding: 5px;
+    background-color: #e1ecf4;
+    color: #2d5b7d;
+    border-radius: 2px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.widget-tags-div p:hover{
+    transform: scale(1.3);
+    transition: 0.2s ease-in;
+}

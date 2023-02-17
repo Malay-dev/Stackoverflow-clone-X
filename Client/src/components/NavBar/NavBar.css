@@ -1,0 +1,78 @@
+.navbar{
+    min-height: 50px;    
+    width: 100%;
+    margin: 0% auto;
+    border-top: solid 3px #ef8236;
+    box-shadow: 0px 1px 5px #00000033;
+    position: relative;
+    z-index: 5;
+    top: 0%;
+    left: 0%;
+    background-color: #d1d1d1;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    height: 100%;
+    min-width: 85%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    height: 50px;
+    width: auto;
+    padding: 5px 25px;
+
+}
+.nav-item{
+    margin: 0px 3px;
+    font-size: small;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(69, 69, 69);
+    transition: 0.2s;
+}
+.nav-item:hover{
+    background-color: rgb(255, 255, 255);
+}
+.nav-btn{
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.navbar form{
+    display: flex;
+    position: relative;
+    flex-grow: 1;
+    gap: 10px;
+    padding: 0 12px;
+    overflow: hidden;
+}
+.search-icon{
+    width: 18px;
+    height: 100%;
+}
+.navbar form input{
+    min-width: 90%;
+    
+    margin:0;
+    font-size: 13px;
+    padding: 8px 5px 8px 32px;
+    border:none;
+    border-radius: 3px;
+}
+.nav-link{
+    padding: 7px 13px;
+    border: solid 1px blue;
+    border-radius: 3px;
+    background-color: #e7f8fe;
+    cursor: pointer;
+
+}
+.user-details-logout{
+    display: flex;
+    gap:2px;
+}
