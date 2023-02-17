@@ -141,7 +141,7 @@ _Below are the instructions to setup the project locally , don't forget to cd to
 ## Contact
 
 Malay Kumar - [@void_MalayK](https://twitter.com/void_MalayK)
-Project Link: https://github.com/Malay-dev/Stack-overflow-X
+Project Link: https://github.com/Malay-dev/Stackoverflow-clone-X
 
 <p align="right"><a href="#readme-top">back to top</a>)</p>
 
